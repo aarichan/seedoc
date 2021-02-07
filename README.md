@@ -20,4 +20,4 @@ It can only generate file header documentation as of now. More formats of docume
 
 ### 1.0.0
 
-Initial Release. Added support for generating file header documentation
+- Initial Release with File Header Generation functionality
