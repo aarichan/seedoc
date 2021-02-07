@@ -1,0 +1,20 @@
+{
+    "name": "seedoc",
+    "displayName": "seedoc",
+    "description": "C/C++ Code Documentation Generator",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "C",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
