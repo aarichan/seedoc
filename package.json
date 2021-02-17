@@ -2,7 +2,7 @@
     "name": "seedoc",
     "displayName": "seedoc",
     "description": "C/C++ Code Documentation Generator",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "aarichan",
     "engines": {
         "vscode": "^1.53.0"
