@@ -1,38 +1,32 @@
 {
 	"File Header Documentation": {
-		"prefix": "seedoc-head",
+		"prefix": "file-seedoc",
 		"body": [
 			"/**",
-			" * Organization: $1",
-			" * Task: ",
-			" * File: $(fileBasename)",
+			" * Filename: $TM_FILENAME",
 			" * ",
 			" * Program Description: ",
 			" * ",
-			" * Author: ",
-			" * Date Created: $CURRENT_MONTH-$CURRENT_DATE-$CURRENT_YEAR",
-			" * ",
 			" * Modified By: ",
-			" * Last Modified: ",
+			" * Last Modified: $CURRENT_MONTH-$CURRENT_DATE-$CURRENT_YEAR",
 			" */",
 		],
 		"description": "Creates file header template"
 	},
 	"Function Header Documentation": {
-		"prefix": "seedoc-func-head",
+		"prefix": "function-seedoc",
 		"body": [
 			"/**",
-			" * FUNCTION NAME",
+			" * Function Name: ",
 			" * ",
-			" * FUNCTION PURPOSE",
+			" * Function Description",
 			" * ",
 			" * args: ",
-			" * TYPE ARG0: DESCRIPTION",
 			" * ",
 			" * return: ",
-			" * TYPE RET: DESCRIPTION",
+            " * ",
 			" */",
 		],
-		"description": "Creates file header template"
+		"description": "Creates function header template"
 	}
 }
